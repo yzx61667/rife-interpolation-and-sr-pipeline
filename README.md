@@ -1,8 +1,8 @@
-# Kazumi-Rife B2 TensorRT Pipeline
+# RIFE 插帧与我们使用的超分模型管线
 
-**Source-only** pipeline for offline anime 2x super-resolution with RIFE
-interpolation, built for Windows + NVIDIA TensorRT. It is the B2 order used by
-the Kazumi-Rife export page:
+**Source-only B2 TensorRT pipeline** for offline anime 2x super-resolution with
+RIFE interpolation, built for Windows + NVIDIA TensorRT. It is the B2 order used
+by the Kazumi-Rife export page:
 
 ```text
 1080p source
