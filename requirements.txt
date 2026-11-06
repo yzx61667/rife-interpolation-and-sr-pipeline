@@ -1,0 +1,11 @@
+# Tested on Python 3.13 / Windows 11.
+numpy>=2.0
+onnx>=1.16
+onnx-graphsurgeon>=0.5
+
+# Optional DirectML fallback hosts (python/pipe):
+# onnxruntime-directml>=1.20
+
+# TensorRT is installed from NVIDIA for the matching CUDA/driver:
+#   tensorrt 10.13.3.9 was used for the published benchmarks.
+# FFmpeg is external and is not redistributed here.

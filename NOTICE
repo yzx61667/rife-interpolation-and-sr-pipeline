@@ -1,0 +1,14 @@
+This repository is a source-only extraction of the B2 TensorRT export
+pipeline developed in a Kazumi-Rife fork.
+
+Upstream project:
+  Kazumi — https://github.com/Predidit/Kazumi
+  License: GNU General Public License v3.0
+
+The pipeline source and documentation in this repository are distributed under
+the same GPL-3.0 license. Model weights, TensorRT runtimes, FFmpeg and other
+third-party binaries are not included and remain under their own licenses; see
+THIRD_PARTY.md.
+
+No warranty is provided. Check every model license before redistributing a
+build that uses it.

@@ -1,0 +1,53 @@
+# Build artifacts, model weights, binaries and runtimes are never committed.
+build/
+.dart_tool/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Models / engines / generated graph files
+*.onnx
+*.engine
+*.plan
+*.bin
+engines/
+models/
+assets/
+
+# Native binaries and runtimes
+*.exe
+*.dll
+*.so
+*.dylib
+runtime/
+ffmpeg/
+realcugan/
+realesrgan/
+vs/
+
+# Sample media and large outputs
+*.mp4
+*.mkv
+*.mov
+*.raw
+*.rgb
+*.yuv
+*.npy
+*.npz
+*.7z
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# Local benchmark artifacts
+sample_tmp/
+*.video.mp4
