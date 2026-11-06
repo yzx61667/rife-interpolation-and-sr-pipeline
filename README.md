@@ -1,4 +1,4 @@
-# RIFE 插帧与我们使用的超分模型管线
+# RIFE 插帧与超分模型管线
 
 **Source-only B2 TensorRT pipeline** for offline anime 2x super-resolution with
 RIFE interpolation, built for Windows + NVIDIA TensorRT. It is the B2 order used
